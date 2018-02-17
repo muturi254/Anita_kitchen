@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* top section */
+.jumbotron{
+    background-image: url("/resources/assets/backgrounds/landing.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+    border-image: 0px;
+}
+
+#one{
+    background: red;
+    height: 14vh;
+}
+#two{
+    background: green;
+    height: 14vh;
+}
+.div{
+   
+}
