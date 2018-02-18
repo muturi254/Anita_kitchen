@@ -35,7 +35,13 @@ body{
     box-shadow: solid 5px black;
     padding: 2.5%;
 }
-
+#nav{
+    background: white;
+    padding: 0px;
+}
+#nav .img-thumbnail{
+    border: 0px;
+}
 #one{
     background: red;
     height: 14vh;
@@ -51,9 +57,12 @@ body{
 /* subscripe */
 #subscribe{
     background-image: url('/resources/assets/backgrounds/subscribe.jpg');
+    background-size: cover;
     color: #fff;
+    padding: 7%;
 }
 /* footer */
 #footer{
     background-color: #F15A29;
+    padding: 3%;
 }
