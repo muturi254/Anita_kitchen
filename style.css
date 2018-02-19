@@ -15,7 +15,7 @@ body{
 } */
 /* top section */
 .jumbotron{
-    background-image: url("/resources/assets/backgrounds/landing.jpg");
+    background-image: url("resources/assets/backgrounds/landing.jpg");
     background-size: cover;
     margin-bottom: 0px;
     border-image: 0px;
@@ -56,7 +56,7 @@ body{
 }
 /* subscripe */
 #subscribe{
-    background-image: url('/resources/assets/backgrounds/subscribe.jpg');
+    background-image: url('resources/assets/backgrounds/subscribe.jpg');
     background-size: cover;
     color: #fff;
     padding: 7%;
