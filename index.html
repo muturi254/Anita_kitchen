@@ -12,7 +12,14 @@
 <body>
     <div class="jumbotron">
         <div class="container">
-            <span class="glyphicon glyphicon-menu-hamburger btn-lg" ></span>
+            <!-- <span class="glyphicon glyphicon-menu-hamburger btn-lg" ></span> -->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Menu</a>
+    <a href="#">Events</a>
+    <a href="#">Contact</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <div class="text-center">
             <img src="resources/assets/logoBig.png" alt="Logo">
                 <p>We Provide The Best Food <br>At The <span style="color:#fff">Right Price</span></p>
@@ -26,15 +33,15 @@
                 <div class="row" style="height:15vh;background:#F15A29"><h1 class="text-center heading" style="color:#fff">Party Time</h1></div>
             </div>
             <div class="col-md-3 no-gutter" style="background:green;padding:0px;">
-                <div class="centered">Hallo</div>
+                <div class="centered">Breakfast</div>
                 <img src="resources/assets/foodtop/lunch.jpg" class="img-responsive" style="width:100%;margin-left:0px;">
             </div>
             <div class="col-md-3 no-gutter" style="background:green;padding:0px;">
-                <div class="centered">Hallo</div>
+                <div class="centered">Lunch</div>
                 <img src="resources/assets/foodtop/dinner2.jpg" class="img-responsive" style="width:100%;margin-left:0px;">
             </div>
             <div class="col-md-3 no-gutter" style="background:green;padding:0px;">
-                <div class="centered">Hallo</div>
+                <div class="centered">Dinner</div>
                 <img src="resources/assets/foodtop/dinner.jpg" class="img-responsive" style="width:100%;margin-left:0px;">
             </div>
         </div>
@@ -44,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="thumbnail">
                         <div class="img-thumbnail drinks">
                             <img src="resources/assets/fastFood1.jpg" class="img img-responsive">
                             <img src="resources/assets/fastFood2.jpg" class="img img-responsive">
@@ -66,7 +73,7 @@
                             <button class="btn btn-success btn-lg">View Gallery <span class="glyphicon glyphicon"></span></button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="thumbnail">
                         <div class="img-thumbnail drinks">
                             <img src="resources/assets/drink1.jpg" class=" ">
                             <img src="resources/assets/drink2.jpg" class="">
@@ -129,7 +136,8 @@
         <div class="row">
             <div class="text-center">
             <h2>Get our daily food items delivered to your email</h2>
-            
+            <input type="email" id="Email" value=""  placeholder="Your email..">
+             <input type="submit" id="myBtn" onclick="myFunction()" value="Subscribe" size="20">
         </div>
         </div>
     </div><!-- subscribe section -->
@@ -146,5 +154,6 @@
     <script src="js/jquery.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
